@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="plugin.fxml.helper" name="FXML Helper" version="1.2.1" provider-name="eXoterr">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.routing" />
+    <import addon="script.module.defusedxml" />
+    <import addon="service.iptv.manager" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.tzlocal" />
+    <import addon="script.module.six" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Parser for FXML based sites</summary>
+    <description lang="en_GB">Parser for FXML based sites</description>
+    <disclaimer lang="en_GB" />
+    <language>en</language> 
+    <platform>all</platform>
+    <license>GPL-3.0-or-later</license>
+    <source>https://github.com/eXoterr/plugin.fxml.helper</source>
+    <news>v1.2.1 (11/03/2021)
+      [new] forkplayer.tv website login feature
+      [new] static links for torrents
+      [new] option to add stream or torrent content in library (Films only)
+      [new] auto replace public acestream server with server from addon settings
+      [new] initial support torrserver 1.2
+      [fix] bugs on some xml sites
+      [fix] streams in submenu
+      [improved] infohash extracting
+      [improved] json parsing on some sites
+    </news>
+    <assets>
+        <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon></addons>
