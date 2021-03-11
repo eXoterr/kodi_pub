@@ -41,4 +41,21 @@
         <icon>resources/icon.png</icon>
     </assets>
   </extension>
+</addon><addon id="repository.exoterr" name="eXoterr Repo" version="1.0.1" provider-name="eXoterr">
+  <extension point="xbmc.addon.repository">
+    <info compressed="false">https://raw.githubusercontent.com/eXoterr/kodi_pub/master/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/eXoterr/kodi_pub/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/eXoterr/kodi_pub/master/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">eXoterr Repo</summary>
+    <description lang="en_GB">eXoterr Repo</description>
+    <disclaimer lang="en_GB" />
+    <language>en</language> 
+    <platform>all</platform>
+    <license>GPL-3.0-or-later</license>
+    <assets>
+        <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
 </addon></addons>
